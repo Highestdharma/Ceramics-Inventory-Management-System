@@ -1,6 +1,4 @@
 # Ceramics-Inventory-Management-System
-Description
-
 The Ceramics Inventory Management System is a C++ application designed to help artists and ceramic enthusiasts manage their ceramic pieces. It allows users to track details of each piece through various stages (Pre-Bisqued, Bisqued, Glazed, Fired), including attributes like dimensions, weight, clay type, texture, and category (Functional or Sculptural). The project demonstrates core programming concepts such as classes, file handling with streams, modular design, and data storage.
 Features
 
@@ -9,23 +7,15 @@ Features
     Save and Load Inventory: Save inventory data to a CSV file and load it back for future use.
     Object-Oriented Design: Structured using C++ classes and modular files.
 
-Getting Started
-Prerequisites
-
-To run this project, you'll need:
-
-    C++ Compiler (e.g., g++ for Linux/macOS, MinGW for Windows)
-    Git (optional, for cloning from GitHub)
-
-Installation
+# Installation
 
     Clone the repository:
 
-git clone https://github.com/yourusername/CeramicsInventorySystem.git
+git clone https://github.com/Highestdharma/Ceramics-Inventory-Management-System.git
 
 Navigate into the project directory:
 
-cd CeramicsInventorySystem
+cd Ceramics-Inventory-Management-System
 
 Compile the project:
 
@@ -35,16 +25,19 @@ Run the program:
 
     ./ceramics_inventory
 
-Usage
+# Usage
 
-    Add Ceramic Pieces: Follow prompts to input details like name, dimensions, stage, and quantity.
-    View All Pieces: Lists all pieces currently stored in the inventory.
-    Filter Pieces: Filter based on criteria like stage or clay type to narrow down results.
-    Save and Load Inventory: Save your current inventory to a CSV file for future use, or load an existing inventory file.
+Upon running the program, you’ll be prompted with a menu of options:
+
+    Add New Ceramic Piece: Enter details for a new piece, like name, dimensions, weight, texture, and stage.
+    View All Pieces: View all pieces currently in the inventory.
+    Filter by Attributes: Filter pieces by stage, category, texture, or clay type.
+    Save Inventory to File: Save your inventory data to a CSV file for future access.
+    Load Inventory from File: Load an inventory from a CSV file.
 
 Sample Commands
 
-After launching the program, you can interact with the system using the menu options.
+After launching the program, choose options from the menu by entering the corresponding number:
 
 1. Add new ceramic piece
 2. View all pieces
@@ -56,33 +49,31 @@ After launching the program, you can interact with the system using the menu opt
 8. Load inventory from file
 9. Exit
 
-Example Usage
+Example Walkthrough
 
 To add a new piece:
 
-    Choose option 1 from the menu and follow the prompts for each attribute.
+    Select option 1 and input the required details as prompted.
 
 To save your current inventory:
 
-    Choose option 7, then specify a filename to save the data (e.g., inventory.csv).
+    Select option 7, and specify a filename (e.g., inventory.csv).
 
-Future Work
+Future Enhancements
 
-Planned future enhancements include:
+Potential future improvements include:
 
-    Sorting Functionality: Add sorting options for easier organization (e.g., by weight or stage).
-    Graphical Interface: Build a GUI to make the application more user-friendly.
-    Additional Data Fields: Include fields like date created or estimated firing temperature.
+    Sorting Functionality: Allow sorting by weight, stage, or other attributes.
+    Graphical Interface: Create a GUI for more accessible interaction.
+    Additional Attributes: Track other data, such as creation date or firing temperature.
 
-Contributing
+# Contributing
 
-Feel free to fork this repository and submit pull requests for any improvements or bug fixes.
+Contributions are welcome! Feel free to fork this repository, make improvements, and submit pull requests.
 License
 
-This project is open-source and available under the MIT License. See the LICENSE file for more details.
+This project is open-source under the MIT License. See the LICENSE file for more information.
 Acknowledgments
 
-    Special thanks to [Your Instructor/Professor] for guidance and support in this project.
+    Thanks to Professor Onwuka for their guidance.
     C++ Documentation: cplusplus.com
-
-
